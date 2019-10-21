@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'composeexample.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres_db',
+        'NAME': 'opencellid_db',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
         'HOST': 'db',

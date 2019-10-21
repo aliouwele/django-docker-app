@@ -11,7 +11,7 @@ def main():
 	df = pd.concat(map(pd.read_csv, glob.glob(os.path.join('', "*.csv"))))
 	df = df.dropna(axis=0)
 	
-	engine = create_engine('postgres://postgres:postgres@db:5432/postgres_db', echo=False)
+	engine = create_engine('postgres://postgres:postgres@db:5432/opencellid_db', echo=False)
 	df.to_sql('app_opencellid', con=engine, if_exists='append', index=False)
 
 
