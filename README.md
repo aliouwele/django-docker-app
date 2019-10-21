@@ -50,7 +50,7 @@ Run the app.
 ```
 ## View data in Django
 
-To view the data imported into the database connect with admin account and go to the link: ```http://ip/admin/app/opencellid``` where ```ip``` is the server ip address (if local put localhost) or the docker machine ip address.  
+To view the data imported into the database connect with admin account and go to the link: ```http://<ip>/admin/app/opencellid``` where ```ip``` is the server ip address (if local put localhost) or the docker machine ip address.  
 
 ### Running tests
 
