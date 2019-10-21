@@ -1,0 +1,1 @@
+2019/10/21 04:43:28 [error] 6#6: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.99.1, server: 127.0.0.1, request: "GET /admin/app/opencellid/ HTTP/1.1", upstream: "http://172.20.0.3:8000/admin/app/opencellid/", host: "192.168.99.100", referrer: "http://192.168.99.100/"

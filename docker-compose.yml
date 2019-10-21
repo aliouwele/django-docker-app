@@ -4,10 +4,9 @@ services:
   db:
     image: postgres
     environment:
-      LC_ALL: C.UTF-8
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres_db
 
   web:
     build: .
